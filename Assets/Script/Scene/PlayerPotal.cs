@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,7 +10,7 @@ public class PlayerPotal : MonoBehaviour
     {
         if (other.CompareTag("portal"))
         {
-            Debug.Log("Portal Á¢ÃË °¨Áö! ¾À ÀüÈ¯ÇÕ´Ï´Ù.");
+            Debug.Log("Portal ì ‘ì´‰ ê°ì§€! ì”¬ ì „í™˜í•©ë‹ˆë‹¤..");
             SceneManager.LoadScene("FlappyPlaneScene");
 
         }
